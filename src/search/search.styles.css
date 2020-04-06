@@ -1,0 +1,30 @@
+.full-screen-wrapper {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  align-items: center;
+}
+.center {
+  width: 100vw;
+  height: 40vh;
+}
+input {
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  height: 25px;
+  width: 40%;
+  border: 1px solid #a0a0a0;
+  outline: none;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+input:hover {
+  border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus {
+  border-color: #4d90fe;
+}
